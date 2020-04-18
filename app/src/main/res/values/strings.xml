@@ -1,0 +1,53 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">1Rc</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="tem"><u>Accept our terms and condition</u></string>
+    <string name="home_second">Home Second</string>
+
+    <string name="term_s">REWARDS CARD (PTY) LTD IS A PRIVATE COMPANY. WE OFFER ONE PLATFORM FOR MEDIA MARKETING, ADVERTISING, REWARDS, LOYALTY AND E-COMMERCE INTEGRATED WITH EKYC VERIFICATION.
+    THIS AGREEMENT CONSTITUTES A LEGALLY BINDING AGREEMENT BETWEEN YOU AND 1 REWARDS CARD. BEFORE USING ANY OF 1 REWARDS CARD SERVICES, PLEASE READ THIS DOCUMENT CAREFULLY. BY ACCESSING, DOWNLOADING, USING, PURCHASING AND/OR SUBSCRIBING TO THE 1 REWARDS CARD SERVICES, YOU ACKNOWLEDGE THAT YOU HAVE READ, UNDERSTOOD, AND AGREE TO BE BOUND BY THE TERMS OF THIS DISCLAIMER AGREEMENT. THIS DISCLAIMER CONTAINS AN ARBITRATION AGREEMENT, A WAIVER OF CLASS-ACTION RIGHTS, AND LIABILITY LIMITATIONS.
+        </string>
+
+
+
+<string-array name="card">
+        <item>Province</item>
+        <item>Kwazulu Natal</item>
+        <item>Gauteng</item>
+        <item>Limpopo</item>
+        <item>Mpumalanga</item>
+        <item>Free State</item>
+        <item>North West</item>
+        <item>Northern Cape</item>
+        <item>Western Cape</item>
+        <item>Eastern Cape</item>
+
+    </string-array>
+    <string name="resed" tools:ignore="StringEscaping">Did not recevied code yet? <u>Resend</u></string>
+    <string-array name="country_code">
+        <item>+91</item>
+        <item>+27</item>
+    </string-array>
+
+
+    <string-array name="country_arrays">
+        <item>Northern Cape</item>
+        <item>Eastern Cape</item>
+        <item>Free State</item>
+        <item>Western Cape</item>
+        <item>Limpopo</item>
+        <item>North West</item>
+        <item>KwaZulu-Natal</item>
+        <item>Mpumalanga</item>
+        <item>Gauteng</item>
+    </string-array>
+</resources>

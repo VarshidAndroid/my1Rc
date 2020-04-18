@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_80sdp"
+        android:textColor="@color/gold"
+        android:text="1Rc Card"
+        android:id="@+id/txt_head"
+        android:paddingTop="@dimen/_25sdp"
+        android:textAlignment="center"
+        android:textSize="@dimen/_22sdp"
+        android:background="@color/gray"
+        tools:ignore="RtlCompat" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_head"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:orientation="vertical">
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_60sdp"
+            android:id="@+id/cardview_apply"
+            android:background="@color/black"
+            app:cardBackgroundColor="@color/black"
+            app:cardCornerRadius="@dimen/_20sdp"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginRight="@dimen/_20sdp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/black"
+                android:textColor="@color/gold"
+                android:textAlignment="center"
+                android:textSize="@dimen/_25sdp"
+                android:layout_gravity="center_vertical"
+                android:gravity="center|center_vertical"
+                android:text="Apply For 1 Rc Card"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_60sdp"
+            android:background="@color/black"
+            android:layout_marginTop="@dimen/_20sdp"
+            app:cardBackgroundColor="@color/black"
+            app:cardCornerRadius="@dimen/_20sdp"
+            android:id="@+id/cardview_activae"
+            android:visibility="gone"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginRight="@dimen/_20sdp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/black"
+                android:textColor="@color/gold"
+                android:textAlignment="center"
+                android:textSize="@dimen/_25sdp"
+                android:layout_gravity="center_vertical"
+                android:gravity="center|center_vertical"
+                android:text="Activate My 1 Rc Card"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_60sdp"
+            android:background="@color/black"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:id="@+id/crdview_pair"
+            app:cardBackgroundColor="@color/black"
+            android:visibility="gone"
+            app:cardCornerRadius="@dimen/_20sdp"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginRight="@dimen/_20sdp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/black"
+                android:textColor="@color/gold"
+                android:textAlignment="center"
+                android:textSize="@dimen/_25sdp"
+                android:layout_gravity="center_vertical"
+                android:gravity="center|center_vertical"
+                android:text="Pair Card"/>
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/fina_bg"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_80sdp"
+        android:textColor="@color/gold"
+        android:text="Store Cards"
+        android:id="@+id/head"
+        android:paddingTop="@dimen/_15sdp"
+        android:textAlignment="center"
+        android:textSize="@dimen/_22sdp"
+        android:background="@color/gray"
+        tools:ignore="RtlCompat" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:layout_marginRight="@dimen/_20sdp"
+        android:id="@+id/layout_search"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:background="@drawable/border_editext"
+        android:layout_below="@+id/head">
+
+        <ImageView
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp"
+            android:src="@drawable/search"
+            android:tint="@color/black"
+            android:padding="@dimen/_2sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:id="@+id/img_search"
+            android:layout_alignParentRight="true"/>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_toLeftOf="@+id/img_search"
+            android:layout_height="@dimen/_10sdp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_5sdp"
+            android:background="@color/black" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Search here"
+            android:textColor="@color/black"
+            android:paddingLeft="@dimen/_10sdp"
+            android:background="@android:color/transparent"/>
+
+    </RelativeLayout>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/recycle_view"
+        android:layout_below="@+id/layout_search"
+        android:layout_marginTop="@dimen/_5sdp"
+        />
+
+
+
+    <ImageView
+        android:layout_width="@dimen/_50sdp"
+        android:layout_height="@dimen/_50sdp"
+        android:src="@drawable/add_btn"
+        android:id="@+id/add_btn"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="@dimen/_20sdp"
+        android:layout_marginRight="@dimen/_20sdp"/>
+
+    <com.wang.avi.AVLoadingIndicatorView
+        android:id="@+id/avi"
+        style="@style/AVLoadingIndicatorView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        app:indicatorColor="@color/gold"
+        app:indicatorName="BallSpinFadeLoaderIndicator" />
+
+
+
+</RelativeLayout>
